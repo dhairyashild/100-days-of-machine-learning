@@ -1,0 +1,12 @@
+10. Encoding parameter
+
+-pd.read_csv('zomato.csv')
+unicodeDecodeError  ----after this code check what format csv encodedother than utf which is bydefault,
+here its latin-1 so add in command
+-pd.read_csv('zomato.csv',encoding='latin-1')
+
+
+11. Skip bad lines
+parsonError due to bad lines then this command
+
+-pd.read_csv('BX-Books.csv', sep=';', encoding="latin-1",error_bad_lines=False)
