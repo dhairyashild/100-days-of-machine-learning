@@ -43,3 +43,35 @@ Data Transformation: Log, Normalization (if needed).
 
 1-Line Summary:
 "EDA = Data की सफाई + पैटर्न ढूँढो + सही Model चुनो!" 🚀
+
+
+
+
+################## MARATHI
+
+
+1. What is EDA?
+"Data की कहानी समझने का तरीका"
+
+Goal: Find patterns, errors, and relationships before modeling.
+
+2. Why EDA? (Need)
+Data समझो → Missing values, outliers, distributions.
+
+Model की performance बढ़ाओ (Better features = Better predictions).
+
+Wrong assumptions → Wrong results (EDA fixes this).
+
+3. History (Short)
+1977: John Tukey (Statistician) coined term "EDA".
+
+Pre-ML Era: Used in stats (mean, median, plots).
+
+Modern ML: Automated EDA (Pandas-profiling, Sweetviz).
+
+4. Types of EDA (Simple)
+Univariate → 1 variable (e.g., Bitcoin price distribution).
+
+Bivariate → 2 variables (e.g., Price vs Volume correlation).
+
+Multivariate → 3+ variables (e.g., Heatmaps, PCA).
